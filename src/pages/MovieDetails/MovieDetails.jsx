@@ -33,7 +33,11 @@ const MovieDetails = () => {
             <h1 className={css.title}>{movie.original_title}</h1>
             <h2>{movie.release_data}</h2>
             <img
-              src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+              src={
+                movie.poster_path
+                  ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+                  : 'https://st4.depositphotos.com/14953852/22772/v/600/depositphotos_227725120-stock-illustration-image-available-icon-flat-vector.jpg'
+              }
               width="300px"
               alt=""
             />
