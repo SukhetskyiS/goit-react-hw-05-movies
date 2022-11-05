@@ -18,6 +18,7 @@
     list-style: none;
 }
 
-.list:not(:last-child){
-    margin-right: 30px;
+.linkText {
+    color: blue;
+    font-size: 20px;
 }

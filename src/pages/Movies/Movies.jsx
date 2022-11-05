@@ -2,6 +2,7 @@ import { SearchForm } from 'components/SearchForm/SearchForm';
 import { searchApi } from 'API/API';
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useSearchParams } from 'react-router-dom';
+
 import css from './Movies.module.css';
 
 const Movies = () => {

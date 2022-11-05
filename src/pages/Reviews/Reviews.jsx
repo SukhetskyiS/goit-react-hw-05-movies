@@ -20,7 +20,6 @@ const Reviews = () => {
 
   return (
     <>
-      <h2 className={css.title}>Reviews</h2>
       <ul>
         {review?.map(item => (
           <li key={item.id} className={css.list}>
